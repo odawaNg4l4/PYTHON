@@ -8,5 +8,5 @@ name = input("Enter bestfriends's name")
 print("Hello", name, "bestfriend")
 
 numbers = 4, 5
-total_sum = sum(numbers)
-print("The total sum is:", total_sum )
+total_summ = sum(numbers)
+print("The total sum is:", total_summ )

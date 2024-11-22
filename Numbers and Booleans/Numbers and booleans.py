@@ -54,5 +54,17 @@ x = 4
 y = 6
 print(x ** y)
 
+# None
+winner = None
+print('Winner is None:', winner)
+print('Winner is None:', winner is None)
+print(type(winner))
+print('Set winner to True')
+winner = True
+print('Winner:', winner)
+print('Winner is None:', winner is None)
+print('Winner is not None:', winner is not None)
+print(type(winner))
+
 
 

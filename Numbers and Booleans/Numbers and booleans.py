@@ -26,3 +26,33 @@ print(type(c1))
 print(c1.real)
 print(c1.imag)
 
+# Bools
+print(int(True))
+print(int(False))
+print(bool(1))
+print(bool(0))
+
+# Strings to bools
+status = bool(input('Ok to proceed:'))
+print(status)
+
+home = 10
+away = 15
+print(home + away)
+print(type(home + away))
+
+goals_for = 10
+goals_against = 5
+print(goals_for - goals_against)
+
+# Division
+print('Modulus division 4 % 2:', 4%2)
+print('Modulus division 3 % 2:', 3%2)
+
+# Power
+x = 4
+y = 6
+print(x ** y)
+
+
+

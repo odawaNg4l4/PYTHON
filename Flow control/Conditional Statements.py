@@ -29,3 +29,22 @@ elif savings < 10000:
 else:
     print("Thank you!")
 
+# Nested if
+snowing = True
+temp = -23
+if temp < 0:
+    print('It is freezing')
+    if snowing:
+        print('Put on boots')
+    print('Time for hot chocolate')
+print('Bye')
+
+# if expressions
+age = 44
+status = None
+if (age > 12) and age < 20:
+    status = 'teenager'
+else:
+    status = 'not teenager'
+print(status)
+

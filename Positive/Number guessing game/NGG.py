@@ -6,6 +6,7 @@ guess = int(input("Enter your guess"))
 trials = 1
 while number_to_guess != guess:
     print("Oopsie wrong guess")
+    print("The correct number is", number_to_guess)
     if trials == 4:
             break
     elif guess < number_to_guess:
@@ -22,4 +23,6 @@ if number_to_guess == guess:
 else:
     print("Sorry - you lose")
     print("The number you were to guess", number_to_guess)
+print("Do you want to retry?")
+str(input("Type y if yes and n for no"))
 print("Game over")

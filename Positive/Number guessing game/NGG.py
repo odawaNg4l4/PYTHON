@@ -1,16 +1,25 @@
 import random
-number = random.randint(1, 10)
+number_to_guess = random.randint(1, 10)
 print("Welcome to the game of the year")
 
-number_guess = int(input("Enter your guess"))
+guess = int(input("Enter your guess"))
 trials = 1
-while number != number_guess:
+while number_to_guess != guess:
     print("Oopsie wrong guess")
     if trials == 4:
-        break
-    elif number_guess < number:
-        print("Your guess is lower")
+            break
+    elif guess < number_to_guess:
+            print("Your guess is lower")
     else:
-        print("The guess is higher")
+            print("The guess is higher")
 
+    guess = int(input("Please guess again"))
+    trials += 4
 
+if number_to_guess == guess:
+    print("Well done you won")
+    print("You took", trials, "goes to  complete the game")
+else:
+    print("Sorry - you lose")
+    print("The number you were to guess", number_to_guess)
+print("Game over")
